@@ -1,5 +1,5 @@
 --find-links https://download.pytorch.org/whl/cpu/torch_stable.html
-torch==1.10.0+cpu
-transformers
 streamlit
+torch
+transformers
 io
