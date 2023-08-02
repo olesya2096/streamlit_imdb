@@ -1,13 +1,8 @@
--master file
-requirements.txt
+--find-links https://download.pytorch.org/whl/cpu/torch_stable.html
+torch==1.10.0+cpu
+transformers
+streamlit-player
+yt-dlp
 streamlit
-db-dtypes
-google-auth
-google-cloud-storage
-google-cloud
-google-cloud-bigquery
-pandas
-datetime
-torch==1.12.1
 io
 transformers
