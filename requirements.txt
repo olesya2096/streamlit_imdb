@@ -6,6 +6,6 @@ google-cloud
 google-cloud-bigquery
 pandas
 datetime
-torch
+torch>=1.7
 io
 transformers
