@@ -3,6 +3,7 @@ from io import StringIO
 import torch
 from transformers import BertForSequenceClassification, BertTokenizer
 
+@st.cache_resource
 def load_model():
     model = BertForSequenceClassification.from_pretrained("olesya2096/my_bert_imdb")
     return model
